@@ -15,5 +15,6 @@
   <remote name="BlissOS"
           fetch="https://github.com/BlissOS"
           revision="voyager-x86-qpr2" />
+  <remote name="pony" fetch="https://github.com/just-a-pony" />
 
 </manifest>

@@ -33,12 +33,12 @@
   <project path="external/libdrm" name="platform_external_libdrm" remote="ag-github" revision="voyager-x86-qpr2" />
   <project path="external/llvm-project" name="external_llvm-project" remote="ag-github" revision="release_19.x_llvm-min-tblgen" />
   <project path="prebuilts/llvm-min-tblgen" name="llvm-min-tblgen" remote="ag-github" revision="release_19.x_old-glibc" />
-  <project path="external/mesa" name="external_mesa" remote="ag-github" revision="voyager-x86-qpr2" />
+  <project path="external/mesa" name="platform/external/mesa3d" remote="aosp" revision="875160ed32cc5bc32777fa04870a0a57ed38c987" />
   <project path="external/minigbm" name="external_minigbm" remote="ag-github" revision="15-x86" />
   <project path="external/hbm-prebuilts" name="external_hbm-prebuilts" remote="ag-github" revision="11" />
 
   <!-- Kernel -->
-  <project path="kernel/x86/common" name="kernel_common" remote="ag-github" sync-s="true" revision="hm/crimson" />
+  <project path="kernel/x86/common" name="kernel_common" remote="pony" sync-s="true" revision="master" />
   <project path="kernel/x86/surface" name="android-generic/kernel_common" remote="ghub" sync-s="true" revision="hm/crimson-surface" />
   <project path="kernel/x86/zenith" name="kernel-zenith" remote="ag-github" sync-s="true" revision="6.12" />
   <project path="external/kernel-drivers" name="exTernal_kernel-drivers" sync-s="true" remote="ag-github" revision="6.6" />
